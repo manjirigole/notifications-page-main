@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: 
+- Solution URL: https://www.frontendmentor.io/solutions/notifications-page-main-T9y7m8Hvrq
+- Live Site URL: https://manjirigole.github.io/notifications-page-main/
 
 ## My process
 
