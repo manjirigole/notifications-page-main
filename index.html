@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Frontend Mentor | Notifications page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="notif-headings">
+          <div class="notif-title">
+            <p class="title">Notifications</p>
+            <button class="count">c</button>
+          </div>
+          <div class="mark-as-read"><p>Mark all as read</p></div>
+        </div>
+        <!--mark-div-->
+        <div class="mark-div">
+          <div class="profile-img">
+            <img
+              src="./assets/images/avatar-mark-webber.webp"
+              class="profile"
+            />
+          </div>
+          <div class="content">
+            <div class="notif-info">
+              <div class="name">Mark Webber</div>
+              <div class="notif">reacted to your recent post</div>
+              <div class="post">My first tournament today!</div>
+              <div class="red-notif"></div>
+            </div>
+            <div class="timestamp">1m ago</div>
+          </div>
+        </div>
+        <!--angela-div-->
+        <div class="angela-div">
+          <div class="profile-img">
+            <img
+              src="./assets/images/avatar-angela-gray.webp "
+              class="profile"
+            />
+          </div>
+          <div class="content">
+            <div class="notif-info">
+              <div class="name">Angela Gray</div>
+              <div class="notif">followed you</div>
+              <div class="post"></div>
+              <div class="red-notif"></div>
+            </div>
+            <div class="timestamp">5m ago</div>
+          </div>
+        </div>
+        <!--jacob-div-->
+        <div class="jacob-div">
+          <div class="profile-img">
+            <img
+              src="./assets/images/avatar-jacob-thompson.webp "
+              class="profile"
+            />
+          </div>
+          <div class="content">
+            <div class="notif-info">
+              <div class="name">Jacob Thompson</div>
+              <div class="notif">has joined your</div>
+              <div class="post">Chess Club</div>
+              <div class="red-notif"></div>
+            </div>
+            <div class="timestamp">1 day ago</div>
+          </div>
+        </div>
+        <!--rizky-div-->
+        <div class="rizky-div">
+          <div class="profile-img">
+            <img
+              src="./assets/images/avatar-rizky-hasanuddin.webp "
+              class="profile"
+            />
+          </div>
+          <div class="content">
+            <div class="notif-info">
+              <div class="name">Rizky Hasanuddin</div>
+              <div class="notif">sent you a private message</div>
+              <div class="post"></div>
+            </div>
+            <div class="timestamp">5 days ago</div>
+            <div class="message-div">
+              <p>
+                Hello, thanks for setting up the Chess Club. I've been a member
+                for a few weeks now and i'm already having lot's of funa nd
+                improving my game.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--kimberly-div-->
+        <div class="kimberly-div">
+          <div class="profile-img">
+            <img
+              src="./assets/images/avatar-kimberly-smith.webp "
+              class="profile"
+            />
+          </div>
+          <div class="content">
+            <div class="notif-info">
+              <div class="name">Kimberly Smith</div>
+              <div class="notif">commented on your picture</div>
+            </div>
+            <div class="timestamp">1 week ago</div>
+          </div>
+          <div class="post">
+            <img src="./assets/images/image-chess.webp" class="image-chess" />
+          </div>
+        </div>
+        <!--nathan-div-->
+        <div class="nathan-div">
+          <div class="profile-img">
+            <img
+              src="./assets/images/avatar-nathan-peterson.webp"
+              class="profile"
+            />
+          </div>
+          <div class="content">
+            <div class="name-time">
+              <span class="name">Nathan Peterson</span>
+              <div class="timestamp">2 weeks ago</div>
+            </div>
+            <span class="notif"
+              >reacted to your recent post
+              <span class="post"
+                >5 end-game strategies to <br />increase your win rate</span
+              >
+            </span>
+          </div>
+        </div>
+        <!--anna-div-->
+        <div class="jacob-div">
+          <div class="profile-img">
+            <img src="./assets/images/avatar-anna-kim.webp " class="profile" />
+          </div>
+          <div class="content">
+            <div class="notif-info">
+              <div class="name">Anna Kim</div>
+              <div class="notif">has left the group</div>
+              <div class="post">Chess Club</div>
+            </div>
+            <div class="timestamp">1 day ago</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

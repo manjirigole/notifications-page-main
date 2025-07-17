@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: hsl(211, 68%, 94%);
+}
+.card {
+  background-color: hsl(0, 100%, 100%);
+  width: 700px;
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-family: "Plus Jakarta Sans";
+  gap: 1rem;
+}
+.notif-headings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.notif-title {
+  display: inline-flex;
+  gap: 1rem;
+  font-weight: 800;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-size: 20px;
+  color: hsl(224, 21%, 14%);
+}
+.mark-as-read {
+  cursor: pointer;
+  color: hsl(224, 21%, 14%);
+}
+.count {
+  background-color: hsl(219, 85%, 26%);
+  color: hsl(0, 100%, 100%);
+  width: 40px;
+  height: 30px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  border: none;
+  border-radius: 1rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-weight: 800;
+  cursor: pointer;
+}
+.content {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: flex-start;
+  align-items: start;
+  color: hsl(219, 14%, 63%);
+  padding-left: 1rem;
+}
+.mark-div,
+.angela-div,
+.jacob-div,
+.rizky-div {
+  display: grid;
+  grid-template-columns: 50px 600px;
+  grid-template-rows: auto;
+  padding-top: 1rem;
+}
+.profile-img {
+  width: 50px;
+}
+.profile {
+  width: 50px;
+  height: 50px;
+}
+.notif-info {
+  display: flex;
+  gap: 5px;
+  justify-content: flex-start;
+  align-items: center;
+}
+.name {
+  color: hsl(224, 21%, 14%);
+  font-weight: 800;
+}
+.notif {
+  color: hsl(219, 12%, 42%);
+  font-weight: 600;
+}
+.post {
+  color: hsl(219, 12%, 42%);
+  font-weight: 800;
+}
+.red-notif {
+  width: 10px;
+  height: 10px;
+  background-color: hsl(1, 90%, 64%);
+  border-radius: 50%;
+  display: flex;
+}
+.jacob-div .post {
+  color: hsl(219, 85%, 26%);
+}
+.rizky-div .content {
+  gap: 0.5rem;
+}
+.message-div {
+  border: 1px solid hsl(219, 12%, 42%, 0.5);
+  padding: 1rem;
+  font-weight: 700;
+  color: hsl(219, 14%, 63%);
+  border-radius: 0.5rem;
+}
+.kimberly-div {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: auto;
+  padding-top: 1rem;
+  grid-template-columns: 50px 400px 200px;
+}
+.kimberly-div .content {
+  display: grid;
+  grid-template-rows: auto, auto;
+}
+.kimberly-div .post {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.kimberly-div .image-chess {
+  width: 50px;
+  height: 50px;
+}
+.nathan-div {
+  display: grid;
+  grid-template-columns: 50px 700px;
+  grid-template-rows: auto;
+}
+.nathan-div .content {
+  display: flex;
+  gap: 7px;
+  justify-content: flex-start;
+}
+.name-time {
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+}
